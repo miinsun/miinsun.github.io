@@ -1,11 +1,14 @@
 <footer class="hyde footer-wrapper">
   <div class="hyde container">
     <div class="hyde footer">
-      <div class="hyde footer-left">
-        <p class="text">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-      </div>
+      <div class="hyde footer-left"></div>
       <div class="hyde footer-right">
         <ul class="hyde footer-menu social">
+          <li>
+            <a href="https://miinsun.tistory.com/"
+              ><i class="fa-brands fa-blogger"></i
+            ></a>
+          </li>
           <li>
             <a href="https://github.com/{{ site.github }}"
               ><i class="fab fa-github"></i
@@ -17,6 +20,8 @@
             ></a>
           </li>
         </ul>
+        <p class="text">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+
         <!-- DO NOT CHANGE THIS :: 수정하지 마세요 -->
         <p class="text">
           Made with
