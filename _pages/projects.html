@@ -6,12 +6,16 @@ visible: true
 ---
 
 <div class="hyde posts">
-  {% assign sorted = site.projects | sort: 'date' | reverse %} {% for project in sorted %}
+  {% assign sorted = site.projects | sort: 'date' | reverse %} {% for project in
+  sorted %}
   <div class="hyde post{% unless forloop.last %} divider{% endunless %}">
     <a href="{{ project.url }}">
       <div class="hyde post-thumbnail-wrapper">
         {% if project.image %}
-        <div class="hyde post-thumbnail" style="background-image: url('/assets/images/projects/{{ project.image }}');"></div>
+        <div
+          class="hyde post-thumbnail"
+          style="background-image: url('/assets/images/projects/{{ project.image }}');"
+        ></div>
         {% elsif project.youtube %}
         <div
           class="hyde post-thumbnail"
@@ -26,7 +30,9 @@ visible: true
       <h2 class="hyde post-title">{{ project.title }}</h2>
     </a>
     <div class="hyde post-trail">
-      <span class="hyde post-date">{{ project.date | date: '%Y년 %-m월 %-d일' }}</span>
+      <span class="hyde post-date"
+        >{{ project.date | date: '%Y년 %-m월' }}</span
+      >
     </div>
   </div>
   {% else %} {% include empty.html %} {% endfor %}
