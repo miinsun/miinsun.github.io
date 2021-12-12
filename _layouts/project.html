@@ -5,21 +5,12 @@ layout: default
 <div class="hyde content">
   {% if page.image %}
   <img
-    style="
-      display: block;
-      width: 85%;
-      height: 25rem;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      padding: 5px;
-      margin-bottom: 2rem;
-      object-fit: scale-down;
-    "
+    class="hyde page-image"
     src="/assets/images/projects/{{ page.image }}"
     alt="{{ page.image | split: '.' | first }}"
   />
   {% endif %}
-  <div style="margin: 1rem auto; display: block; width: 85%">{{ content }}</div>
+  <div class="page-content">{{ content }}</div>
   {% if page.link %}
   <div style="text-align: center; margin: 1rem">
     <button class="hyde btn-blue btn" onClick="location.href='{{ page.link }}'">
