@@ -5,18 +5,25 @@ layout: default
 <div class="hyde content">
   {% if page.image %}
   <img
+    style="
+      display: block;
+      width: 85%;
+      height: 25rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      margin-bottom: 2rem;
+      object-fit: scale-down;
+    "
     src="/assets/images/projects/{{ page.image }}"
     alt="{{ page.image | split: '.' | first }}"
   />
   {% endif %}
-  
-  {{ content }} {% if page.youtube %}
-  <div style="text-align: center; margin: 3rem">
-    <button
-      class="hyde btn-blue btn"
-      onClick="location.href='{{ page.youtube }}'"
-    >
-      GO TO VIDEO
+  <div style="margin: 1rem auto; display: block; width: 85%">{{ content }}</div>
+  {% if page.link %}
+  <div style="text-align: center; margin: 1rem">
+    <button class="hyde btn-blue btn" onClick="location.href='{{ page.link }}'">
+      {{ page.btn }}
     </button>
   </div>
   {% endif %}

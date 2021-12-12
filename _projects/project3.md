@@ -1,12 +1,15 @@
 ---
 title: AI Hogwarts Dormitory Test
 description: 나는 어떤 기숙사에 배정될까?
-image: project3.jpg
+timage: project3.gif
+image: project3.gif
 date: 2021-02-01
-youtube: https://youtu.be/P-MmwnnXGqA
+link: https://youtu.be/P-MmwnnXGqA
+btn: GO TO VIDEO
 ---
 
-## AI 호그와트 기숙사 배정
+<div style="font-weight: bold; font-size: 1.5rem">AI 호그와트 기숙사 배정</div>
+<div style="text-align: right; color: #aaaab3">2021/01~2021/02  1인</div>
 
 ---
 

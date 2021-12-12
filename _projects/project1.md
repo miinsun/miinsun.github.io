@@ -1,12 +1,15 @@
 ---
 title: FoodDiary
 description: 나만의 음식 다이어리
+timage: project1.jpg
 image: project1.jpg
 date: 2020-06-01
-youtube: https://www.youtube.com/watch?v=JEa2j4Yk2Bc
+link: https://www.youtube.com/watch?v=JEa2j4Yk2Bc
+btn: GO TO VIDEO
 ---
 
-## 내가 만들어 가는 나만의 음식 다이어리
+<div style="font-weight: bold; font-size: 1.5rem">내가 만들어 가는 나만의 음식 다이어리</div>
+<div style="text-align: right; color: #aaaab3">2020/04~2020/06  1인</div>
 
 ---
 

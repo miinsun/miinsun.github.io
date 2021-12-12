@@ -1,12 +1,15 @@
 ---
 title: 소소한 할인
 description: 소상공인, 소비자 연계 할인 서비스
-image: project6.jpg
+timage: project6.gif
+image: project6.gif
 date: 2021-10-01
-youtube: https://www.youtube.com/watch?v=vJsuFaw88CA
+link: https://www.youtube.com/watch?v=vJsuFaw88CA
+btn: GO TO VIDEO
 ---
 
-## 소소한 할인 : 소상공인, 소비자 연계 할인 서비스
+<div style="font-weight: bold; font-size: 1.5rem">소소한 할인 : 소상공인, 소비자 연계 할인 서비스</div>
+<div style="text-align: right; color: #aaaab3">2021/03~2021/12  5인</div>
 
 ---
 

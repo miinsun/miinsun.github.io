@@ -1,12 +1,15 @@
 ---
 title: TOTALSOMCARE
 description: 인공지능 스마트 홈 통합 솔루션
+timage: project2.jpg
 image: project2.jpg
 date: 2020-10-01
-youtube: https://www.youtube.com/watch?v=jqB4dv1RGsM
+link: https://www.youtube.com/watch?v=jqB4dv1RGsM
+btn: GO TO VIDEO
 ---
 
-## 인공지능 스마트 홈 통합 솔루션
+<div style="font-weight: bold; font-size: 1.5rem">인공지능 스마트 홈 통합 솔루션</div>
+<div style="text-align: right; color: #aaaab3">2020/03~2020/10  5인</div>
 
 ---
 

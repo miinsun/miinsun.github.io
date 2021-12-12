@@ -1,12 +1,15 @@
 ---
 title: 하루한개
 description: 하루에 한개씩 도전 습관 만들기!
-image: project4.jpg
+timage: project4.gif
+image: project4.gif
 date: 2020-12-01
-youtube: https://www.youtube.com/watch?v=Qzidb62VYWY
+link: https://www.youtube.com/watch?v=Qzidb62VYWY
+btn: GO TO VIDEO
 ---
 
-## AI 호그와트 기숙사 배정
+<div style="font-weight: bold; font-size: 1.5rem">하루에 한개씩 도전 습관 만들기!</div>
+<div style="text-align: right; color: #aaaab3">2020/09~2020/12  4인</div>
 
 ---
 

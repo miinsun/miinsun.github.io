@@ -1,12 +1,15 @@
 ---
 title: 자꾸다꾸
 description: 자꾸 다 꾸미고 싶은 다이어리
-image: project5.jpg
+timage: project5.gif
+image: project5.gif
 date: 2021-06-01
-youtube: https://www.youtube.com/watch?v=Qzidb62VYWY
+link: https://youtu.be/qNM4AiFkqvM
+btn: GO TO VIDEO
 ---
 
-## 자꾸 다 꾸미고 싶은 다이어리
+<div style="font-weight: bold; font-size: 1.5rem">자꾸 다 꾸미고 싶은 다이어리</div>
+<div style="text-align: right; color: #aaaab3">2021/03~2021/06  4인</div>
 
 ---
 
